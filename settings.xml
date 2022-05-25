@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="703a1f57-36ed-426b-96a4-91f9413bac36" created="3.30.0" activeEnvironment="Default environment" name="REST Project 1" compositeProjectFormat="1.3" updated="3.30.0" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+<con:soapui-project id="703a1f57-36ed-426b-96a4-91f9413bac36" created="3.30.0" activeEnvironment="Default environment" name="REST Project 1" compositeProjectFormat="1.3" updated="3.30.0" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="703a1f57-36ed-426b-96a4-91f9413bac36fileName">REST-Project-1-readyapi-project</con:setting>
+  </con:settings>
   <con:properties/>
   <con:wssContainer/>
   <con:databaseConnectionContainer/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="Weather" path="/data/2.5/weather" id="26c02039-7700-40c5-ac00-4152b6aaa233" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="Weather" path="/data/2.5/weather" id="26c02039-7700-40c5-ac00-4152b6aaa233" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="26c02039-7700-40c5-ac00-4152b6aaa233fileName">Weather</con:setting>
   </con:settings>
@@ -12,21 +12,25 @@
         <con:value>London,uk</con:value>
         <con:style>QUERY</con:style>
         <con:default>London,uk</con:default>
-        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:path xsi:nil="true"/>
+        <con:description xsi:nil="true"/>
       </con:parameter>
       <con:parameter required="true">
         <con:name>APPID</con:name>
         <con:value>fd2e9a815ae8665784e2f7a732260870</con:value>
         <con:style>QUERY</con:style>
         <con:default>fd2e9a815ae8665784e2f7a732260870</con:default>
-        <con:path xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:path xsi:nil="true"/>
+        <con:description xsi:nil="true"/>
       </con:parameter>
     </con:parameters>
     <con:request name="Request 1" id="9f6ee296-8630-49ff-b84c-3536b6489700" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://api.openweathermap.org</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters>
         <con:entry key="q" value="London,uk"/>
         <con:entry key="APPID" value="fd2e9a815ae8665784e2f7a732260870"/>
